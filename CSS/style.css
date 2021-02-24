@@ -153,6 +153,10 @@
     color: #ffffff;
     background-color: #000000;
   }
+
+  .trend__article:nth-child(n+2) {
+    margin-left: 4px;
+  }
   
   .container {
     display: flex;
