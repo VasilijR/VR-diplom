@@ -132,11 +132,26 @@
   .strip {
     width: 66px;
     height: 3px;
-    margin-top: 13px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     background-color: #b59f5b;
     opacity: 0.4;
+  }
+
+  .trend__wrapper {
+    display: flex;
+    margin-top: 27px;
+  }
+
+  .trend__article {
+    box-sizing: border-box;
+    width: 409px;
+    padding-top: 157px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    background-color: #000000;
   }
   
   .container {
