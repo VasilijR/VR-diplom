@@ -141,12 +141,13 @@
 
   .trend__wrapper {
     display: flex;
+    width: 100%;
     margin-top: 27px;
   }
 
   .trend__article {
     box-sizing: border-box;
-    width: 409px;
+    width: 25%;
     padding-top: 157px;
     padding-left: 20px;
     padding-right: 20px;
@@ -155,6 +156,7 @@
   }
 
   .trend__article:nth-child(n+2) {
+    width: calc(25% - 4px);
     margin-left: 4px;
   }
   
