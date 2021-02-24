@@ -111,6 +111,22 @@
   
     text-transform: uppercase;
   }
+
+  .trends {
+    width: 100%;
+    margin-top: 59px;
+  }
+
+  .trends__title {
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0f0d0e;
+    text-transform: uppercase;
+  }
   
   .container {
     display: flex;
