@@ -170,7 +170,21 @@
 
   .trend__border {
     box-sizing: border-box;
+    padding-top: 38px;
+    padding-left: 33px;
     border: 3px solid #b59f5b;
+    opacity: 0.6;
+    z-index: 2;
+  }
+
+  .trend__title {
+    margin-top: 11px;
+
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
     z-index: 2;
   }
   
