@@ -153,7 +153,6 @@
     padding-left: 20px;
     padding-right: 20px;
     position: relateve;
-    color: #ffffff;
     background-color: #000000;
   }
 
@@ -162,12 +161,27 @@
     margin-left: 4px;
   }
 
-  .trend__article:nth-child(4n+1) {
+  .trend__article {
     position: absolute;
-    background-image: url("../images/trend1.jpg");
     background-repeat: no-repeat;
     background-position-x: 0;
     background-position-y: 0;
+  }
+
+  .trend__article:nth-child(4n+1) {
+    background-image: url("../images/trend1.jpg");
+  }
+
+  .trend__article:nth-child(4n+2) {
+    background-image: url("../images/trend2.jpg");
+  }
+
+  .trend__article:nth-child(4n+3) {
+    background-image: url("../images/trend3.jpg");
+  }
+
+  .trend__article:nth-child(4n+4) {
+    background-image: url("../images/trend4.jpg");
   }
 
   .trend__border {
