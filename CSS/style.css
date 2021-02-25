@@ -159,6 +159,13 @@
     width: calc(25% - 4px);
     margin-left: 4px;
   }
+
+  .trend__article:nth-child(1) {
+    background-image: url(../images/trend1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+  }
   
   .container {
     display: flex;
