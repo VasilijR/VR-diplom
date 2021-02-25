@@ -170,18 +170,22 @@
   }
 
   .trend__article::before:nth-child(4n+1) {
+    content: "";
     background-image: url("../images/trend1.jpg");
   }
 
   .trend__article::before:nth-child(4n+2) {
+    content: "";
     background-image: url("../images/trend2.jpg");
   }
 
   .trend__article::before:nth-child(4n+3) {
+    content: "";
     background-image: url("../images/trend3.jpg");
   }
 
   .trend__article::before:nth-child(4n+4) {
+    content: "";
     background-image: url("../images/trend4.jpg");
   }
 
