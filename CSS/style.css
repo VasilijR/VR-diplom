@@ -165,7 +165,7 @@
     background-image: url("../images/trend1.jpg");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100%;
+    background-size: auto 100%;
   }
 
   .trend__border {
