@@ -161,29 +161,27 @@
     margin-left: 4px;
   }
 
-  .trend__article {
+  .trend__article::before {
+    content: "";
+    position: absolute;
     background-repeat: no-repeat;
     background-position-x: 0;
     background-position-y: 0;
   }
 
-  .trend__article:nth-child(4n+1) {
-    position: absolute;
+  .trend__article::before:nth-child(4n+1) {
     background-image: url("../images/trend1.jpg");
   }
 
-  .trend__article:nth-child(4n+2) {
-    position: absolute;
+  .trend__article::before:nth-child(4n+2) {
     background-image: url("../images/trend2.jpg");
   }
 
-  .trend__article:nth-child(4n+3) {
-    position: absolute;
+  .trend__article::before:nth-child(4n+3) {
     background-image: url("../images/trend3.jpg");
   }
 
-  .trend__article:nth-child(4n+4) {
-    position: absolute;
+  .trend__article::before:nth-child(4n+4) {
     background-image: url("../images/trend4.jpg");
   }
 
