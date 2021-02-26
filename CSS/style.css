@@ -214,6 +214,7 @@
     font-weight: bold;
     color: #ffffff;
     text-transform: uppercase;
+    opacity: 1;
     z-index: 5;
   }
   
