@@ -199,8 +199,10 @@
     box-sizing: border-box;
     padding-top: 38px;
     padding-left: 33px;
+    position: relative;
     border: 3px solid #b59f5b;
     opacity: 0.6;
+    z-index: 1;
   }
 
   .trend__title {
