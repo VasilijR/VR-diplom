@@ -184,6 +184,17 @@
     background-image: url("../images/trend4.jpg");
   }
 
+  .trend__article::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color:#000000;
+    opacity: 0.6;
+  }
+
   .trend__border {
     box-sizing: border-box;
     padding-top: 38px;
