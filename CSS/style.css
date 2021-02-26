@@ -207,6 +207,7 @@
 
   .trend__title {
     margin-top: 11px;
+    position: relative;
 
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 20px;
