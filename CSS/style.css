@@ -199,6 +199,7 @@
     box-sizing: border-box;
     padding-top: 38px;
     padding-left: 33px;
+    padding-bottom: 32px;
     position: relative;
     border: 3px solid #b59f5b;
     opacity: 0.6;
