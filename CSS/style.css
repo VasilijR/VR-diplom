@@ -216,6 +216,7 @@
     color: #ffffff;
     text-transform: uppercase;
     z-index: 5;
+    opacity: 1;
   }
 
   .trend__teg {
