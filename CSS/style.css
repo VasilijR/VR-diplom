@@ -197,9 +197,9 @@
 
   .trend__border {
     box-sizing: border-box;
-    padding-top: 38px;
+    padding-top: 36px;
     padding-left: 33px;
-    padding-bottom: 32px;
+    padding-bottom: 30px;
     position: relative;
     border: 3px solid #b59f5b;
     opacity: 0.6;
@@ -207,7 +207,7 @@
   }
 
   .trend__title {
-    margin-top: 11px;
+    margin-top: 9px;
 
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 20px;
