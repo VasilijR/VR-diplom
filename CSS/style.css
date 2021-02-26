@@ -215,6 +215,29 @@
     text-transform: uppercase;
     opacity: 1;
   }
+
+  .trend__teg {
+    display: flex;
+    padding-left: 0;
+  }
+
+  .teg__item {
+    list-style-type: none;
+  }
+
+  .teg__item:nth-child(n+2) {
+    padding-left: 19px;
+  }
+
+  .teg__item__link {
+    text-decoration: none;
+
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #b59f5b;
+    text-transform: uppercase;
+  }
   
   .container {
     display: flex;
