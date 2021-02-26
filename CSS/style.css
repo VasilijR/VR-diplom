@@ -193,6 +193,7 @@
     bottom: 0;
     color:#000000;
     opacity: 0.6;
+    z-index: 1;
   }
 
   .trend__border {
