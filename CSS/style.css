@@ -160,7 +160,7 @@
   .trend__article {
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: auto 100%;
+    background-size: 100% auto;
   }
 
   .trend__article:nth-child(4n+1) {
