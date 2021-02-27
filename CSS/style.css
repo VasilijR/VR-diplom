@@ -112,7 +112,7 @@
     text-transform: uppercase;
   }
 
-  .trends {
+  .trends {                           /*Адаптивная и мобильная вёрстка. Начало.*/
     margin-top: 59px;
   }
 
@@ -200,7 +200,7 @@
     box-sizing: border-box;
     padding-top: 36px;
     padding-left: 33px;
-    padding-right: 41px;
+    padding-right: 37px;
     padding-bottom: 30px;
     position: relative;
     border: 3px solid rgba(181, 159, 91, 0.6);
@@ -231,13 +231,12 @@
   }
 
   .teg__item__link {
-    text-decoration: none;
-
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 14px;
     font-weight: bold;
     color: #b59f5b;
     text-transform: uppercase;
+    text-decoration: none;
   }
   
   .container {
