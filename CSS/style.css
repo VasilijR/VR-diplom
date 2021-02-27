@@ -112,7 +112,7 @@
     text-transform: uppercase;
   }
 
-  .trends {                           /*Адаптивная и мобильная вёрстка. Начало.*/
+  .trends {                           /*Адаптивная и мобильная вёрстка. Начало. Trend*/
     margin-top: 59px;
   }
 
@@ -213,6 +213,7 @@
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 20px;
     font-weight: bold;
+    line-height: normal;
     color: #ffffff;
     text-transform: uppercase;
   }
@@ -237,7 +238,7 @@
     color: #b59f5b;
     text-transform: uppercase;
     text-decoration: none;
-  }
+  }                                                 /*Адаптивная и мобильная вёрстка. Конец. Trend*/
   
   .container {
     display: flex;
@@ -667,6 +668,10 @@
     margin-bottom: 17px;
     background-color: #eeeeee;
   }
+
+  .shop {                                             /*Адаптивная и мобильная вёрстка. Начало. Shop*/
+    margin-top: 64px;
+  }                                                     
   
   .footer {
     width: 1170px;
