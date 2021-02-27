@@ -201,22 +201,18 @@
     padding-left: 33px;
     padding-bottom: 30px;
     position: relative;
-    border: 3px solid #b59f5b;
-    opacity: 0.6;
-    z-index: 4;
+    border: 3px solid rgba(181, 159, 91, 0.6);
+    z-index: 1;
   }
 
   .trend__title {
     margin-top: 9px;
-    position: relative;
 
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: #ffffff;
     text-transform: uppercase;
-    z-index: 5;
-    opacity: 1;
   }
 
   .trend__teg {
