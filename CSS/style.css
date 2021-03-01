@@ -669,16 +669,7 @@
     background-color: #eeeeee;
   }
 
-  .shops {                                             /*Адаптивная и мобильная вёрстка. Начало. Shop*/
-    margin-top: 64px;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .shops {
+  .shops {                                          /*Адаптивная и мобильна вёрстка. Начало. Shop*/
     width: 1170px;
     margin-top: 61px;
     margin-left: auto;
