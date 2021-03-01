@@ -681,7 +681,7 @@
     margin-left: auto;
     margin-right: auto;
     
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: "Open Sans", Arial, sans-serif;
     font-size: 20px;
     line-height: normal;
     font-weight: bold;
@@ -736,7 +736,7 @@
   .shop__title {
     margin-bottom: 5px;
     
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: "Open Sans", Arial, sans-serif;
     font-size: 20px;
     line-height: normal;
     font-weight: bold;
@@ -745,7 +745,7 @@
   }
   
   .shop__text {
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: "Open Sans", Arial, sans-serif;
     font-size: 15px;
     line-height: 22px;
     font-weight: normal;
@@ -767,7 +767,7 @@
   }
   
   .price__1 {
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: "Open Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: normal;
     font-weight: bold;
@@ -777,7 +777,7 @@
   }
   
   .price__2 {
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: "Open Sans", Arial, sans-serif;
     font-size: 20px;
     line-height: normal;
     font-weight: bold;
