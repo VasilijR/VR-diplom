@@ -671,7 +671,128 @@
 
   .shops {                                             /*Адаптивная и мобильная вёрстка. Начало. Shop*/
     margin-top: 64px;
-  }                                                     
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .shops {
+    width: 1170px;
+    margin-top: 61px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .shops__title {
+    width: 173px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 20px;
+    line-height: normal;
+    font-weight: bold;
+    color: #0f0d0e;
+    text-transform: uppercase;
+  }
+  
+  .shop__strip {
+    width: 66px;
+    height: 3px;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b59f5b;
+    opacity: 0.4;
+  }
+  
+  .shop__wrapper {
+    display: flex;
+    margin-top: 29px;
+    justify-content: space-between;
+  }
+  
+  .shop__article {
+    width: 346px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .shop__img {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .shop__img__1 {
+    max-width: 100%;
+  }
+  .shop__content {
+    box-sizing: border-box;
+    margin-top: -35px;
+    padding-top: 49px;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-bottom: 68px;
+    border: 3px solid rgba(181, 159, 91, 0.6);
+    position: relative;
+    z-index: 1;
+    flex-grow: 1;
+  }
+  
+  .shop__title {
+    margin-bottom: 5px;
+    
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 20px;
+    line-height: normal;
+    font-weight: bold;
+    color: #0f0d0e;
+    text-transform: uppercase;
+  }
+  
+  .shop__text {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: normal;
+  }
+  
+  .shop__link {
+    text-decoration: none;
+    color: #b59f5b;
+  }
+  
+  .shop__price__button {
+    display: flex;
+  }
+  
+  .shop__price {
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .price__1 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+    line-height: normal;
+    font-weight: bold;
+    color: #0f0d0e;
+    text-transform: uppercase;
+    text-decoration: line-through;
+  }
+  
+  .price__2 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 20px;
+    line-height: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+  }                                                   /*Адаптивная и мобильная вёрстка. Конец. Shop*/
+  
   
   .footer {
     width: 1170px;
