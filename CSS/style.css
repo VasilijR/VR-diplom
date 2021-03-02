@@ -770,6 +770,8 @@
     height: 30px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
   }
   
   .shop__price__1 {
@@ -788,8 +790,34 @@
     line-height: normal;
     font-weight: bold;
     text-transform: uppercase;
-  }                                                   /*Адаптивная и мобильная вёрстка. Конец. Shop*/
+  }
   
+  .shop__link__button {
+    display: flex;
+    width: 140px;
+    height: 49px;
+    background-color: #000000;
+  }
+  
+  .shop__link__text {
+    margin: auto;
+
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: normal;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  .shop__link__button:hover {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
   
   .footer {
     width: 1170px;
