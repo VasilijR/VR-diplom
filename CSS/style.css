@@ -772,7 +772,7 @@
     flex-direction: column;
   }
   
-  .price__1 {
+  .shop__price__1 {
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: normal;
@@ -782,7 +782,7 @@
     text-decoration: line-through;
   }
   
-  .price__2 {
+  .shop__price__2 {
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 20px;
     line-height: normal;
