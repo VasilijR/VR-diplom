@@ -784,7 +784,7 @@
   
   .shop__price__2 {
     position: relative;
-    margin-top: 15px;
+    top: 15px;
 
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 20px;
