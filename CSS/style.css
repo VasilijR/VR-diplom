@@ -730,7 +730,7 @@
     padding-top: 49px;
     padding-left: 19px;
     padding-right: 19px;
-    padding-bottom: 68px;
+    padding-bottom: 25px;
     border: 3px solid rgba(181, 159, 91, 0.6);
     position: relative;
     z-index: 1;
@@ -762,15 +762,13 @@
   
   .shop__price__button {
     display: flex;
+    height: 49px;
     margin-top: 22px;
     justify-content: space-between;
   }
   
   .shop__price {
-    height: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    height: 32px;
     align-self: center;
   }
   
@@ -785,6 +783,9 @@
   }
   
   .shop__price__2 {
+    position: relative;
+    margin-top: 15px;
+
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 20px;
     line-height: normal;
@@ -795,7 +796,6 @@
   .shop__link__button {
     display: flex;
     width: 140px;
-    height: 49px;
     background-color: #b59f5b;
   }
   
