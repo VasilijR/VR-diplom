@@ -796,12 +796,15 @@
     display: flex;
     width: 140px;
     height: 49px;
-    background-color: #000000;
+    background-color: #b59f5b;
   }
   
   .shop__link__text {
     margin: auto;
+}
 
+  .link__text {
+    text-decoration: none;
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: normal;
