@@ -777,7 +777,6 @@
 
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 14px;
-    line-height: normal;
     font-weight: bold;
     color: #0f0d0e;
     text-transform: uppercase;
@@ -791,7 +790,6 @@
 
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 20px;
-    line-height: normal;
     font-weight: bold;
     text-transform: uppercase;
   }
