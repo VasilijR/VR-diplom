@@ -1,13 +1,17 @@
 @font-face {
     font-family: "Open Sans";
-    src: url(../fonts/OpenSans-Regular.woff);
+    src: url("../fonts/OpenSans-Regular.woff");
+    src: url("../font/OpenSans-Regular.woff2");
+    src: url("../font/OpenSans-Regular.ttf");
     font-weight: 400;
     font-style: normal;
   }
   
   @font-face {
     font-family: "Open Sans";
-    src: url(../fonts/OpenSans-Bold.woff);
+    src: url("../fonts/OpenSans-Bold.woff");
+    src: url("../font/OpenSans-Bold.woff2");
+    src: url("../font/OpenSans-Bold.ttf");
     font-weight: 700;
     font-style: normal;
   }
@@ -758,6 +762,8 @@
   
   .shop__price__button {
     display: flex;
+    margin-top: 22px;
+    justify-content: space-between;
   }
   
   .shop__price {
