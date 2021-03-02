@@ -678,6 +678,7 @@
     margin-top: 61px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 64px;
   }
   
   .shops__title {
@@ -820,7 +821,7 @@
     font-weight: bold;
     color: #ffffff;
     text-transform: uppercase;
-  }
+  }                                                 /*Адаптивная и мобильная вёрстка. Конец. Shop*/
   
   .footer {
     width: 1170px;
