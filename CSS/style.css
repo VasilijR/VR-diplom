@@ -768,29 +768,28 @@
   }
   
   .shop__price {
+    display: flex;
     height: 32px;
+    flex-direction: column;
+    justify-content: space-between;
     align-self: center;
   }
   
   .shop__price__1 {
-    position: relative;
-
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 14px;
     font-weight: bold;
+    line-height: 1;
     color: #0f0d0e;
     text-transform: uppercase;
     text-decoration: line-through;
   }
   
   .shop__price__2 {
-    position: relative;
-    top: 15px;
-    z-index: 2;
-
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 20px;
     font-weight: bold;
+    line-height: 1;
     text-transform: uppercase;
   }
   
