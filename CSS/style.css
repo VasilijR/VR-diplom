@@ -135,6 +135,7 @@
 
   .trends__title::after {
     content: "";
+    display: block;
     width: 66px;
     height: 3px;
     margin-top: 10px;
@@ -701,6 +702,7 @@
   
   .shops__title {
     content: "";
+    display: block;
     width: 66px;
     height: 3px;
     margin-top: 7px;
