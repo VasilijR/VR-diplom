@@ -929,8 +929,12 @@
       width: 23.07%;
     }
     
-    .content__img {
+    .img {
       width: 48.97%;
+    }
+
+    .content__img {
+      width: 100%;
     }
     
     .text {
