@@ -133,7 +133,7 @@
     text-transform: uppercase;
   }
 
-  .trend__title::after {
+  .trends__title::after {
     content: "";
     width: 66px;
     height: 3px;
@@ -219,12 +219,12 @@
     font-size: 20px;
     font-weight: bold;
     line-height: normal;
-    color: #ffffff;
     text-transform: uppercase;
   }
 
   .trend__title__link {
     text-decoration: none;
+    color: #ffffff;
   }
 
   .trend__teg {
@@ -699,7 +699,7 @@
     text-transform: uppercase;
   }
   
-  .shop__title {
+  .shops__title {
     content: "";
     width: 66px;
     height: 3px;
