@@ -20,13 +20,8 @@
     margin: 0;
     padding: 0;
   }
-
-  body {
-    width: 100%;
-  }
   
   .header {
-    width: 100%;
     padding-top: 27px;
     padding-bottom: 145px;
   
@@ -138,7 +133,8 @@
     text-transform: uppercase;
   }
 
-  .trend__strip {
+  .trend__title::after {
+    content: "";
     width: 66px;
     height: 3px;
     margin-top: 10px;
@@ -225,6 +221,10 @@
     line-height: normal;
     color: #ffffff;
     text-transform: uppercase;
+  }
+
+  .trend__title__link {
+    text-decoration: none;
   }
 
   .trend__teg {
@@ -699,7 +699,8 @@
     text-transform: uppercase;
   }
   
-  .shop__strip {
+  .shop__title {
+    content: "";
     width: 66px;
     height: 3px;
     margin-top: 7px;
@@ -908,57 +909,5 @@
     color: #999999;
   }
 
-  @media (min-width: 1661px) {
-    .heading {
-      width: 70.48%;
-    }
-    
-    .headline {
-      width: 42.53%;
-    }
-    
-    .container {
-      width: 70.48%;
-    }
-    
-    .main {
-      width: 66.49%;
-  }
-
-   .content {
-    width: 100%;
-  }
-
-  .content-a {
-    width: 100%;
-  }
-    
-    .side {
-      width: 23.07%;
-    }
-    
-    .img {
-      width: 48.97%;
-    }
-
-    .content__img {
-      width: 100%;
-    }
-    
-    .text {
-      width: 47.3%;
-    }
-    
-    .img-a {
-      width: 25.92%;
-    }
-
-    .content__img-a {
-      width: 100%;
-    }
-    
-    .text-a {
-      width: 67.03%;
-    }
-  }
+  
   
