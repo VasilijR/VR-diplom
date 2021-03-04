@@ -923,7 +923,11 @@
     
     .main {
       width: 66.49%;
-    }
+  }
+
+   .content {
+    width: 100%;
+  }
     
     .side {
       width: 23.07%;
