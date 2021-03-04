@@ -700,7 +700,7 @@
     text-transform: uppercase;
   }
   
-  .shops__title {
+  .shops__title::after {
     content: "";
     display: block;
     width: 66px;
