@@ -20,8 +20,13 @@
     margin: 0;
     padding: 0;
   }
+
+  body {
+    width: 100%;
+  }
   
   .header {
+    width: 100%;
     padding-top: 27px;
     padding-bottom: 145px;
   
@@ -901,5 +906,43 @@
     line-height: normal;
     font-weight: bold;
     color: #999999;
+  }
+
+  @media (min-width: 1661px) {
+    .heading {
+      width: 70.48%;
+    }
+    
+    .headline {
+      width: 42.53%;
+    }
+    
+    .container {
+      width: 70.48%;
+    }
+    
+    .main {
+      width: 66.49%;
+    }
+    
+    .side {
+      width: 23.07%;
+    }
+    
+    .img {
+      width: 48.97%;
+    }
+    
+    .text {
+      width: 47.3%;
+    }
+    
+    .img-a {
+      width: 25.92%;
+    }
+    
+    .text-a {
+      width: 67.03%;
+    }
   }
   
