@@ -928,6 +928,10 @@
    .content {
     width: 100%;
   }
+
+  .content-a {
+    width: 100%;
+  }
     
     .side {
       width: 23.07%;
@@ -947,6 +951,10 @@
     
     .img-a {
       width: 25.92%;
+    }
+
+    .content__img-a {
+      width: 100%;
     }
     
     .text-a {
