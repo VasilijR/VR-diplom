@@ -208,7 +208,7 @@
 
   .trend__border {
     box-sizing: border-box;
-    width: calc(100% - 40px);
+    width: 100%;
     max-height: 290px;
     padding-top: 36px;
     padding-left: 33px;
