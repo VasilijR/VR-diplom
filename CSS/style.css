@@ -809,6 +809,7 @@
   }
   
   .shop__link__button {
+    display: block;
     display: flex;
     width: 140px;
     background-color: #b59f5b;
@@ -818,7 +819,7 @@
     margin: auto;
 }
 
-  .link__text {
+  .shop__link__text {
     text-decoration: none;
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 14px;
@@ -828,7 +829,7 @@
     text-transform: uppercase;
   }
 
-  .link__text:hover {
+  .shop__link__button:hover {
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 16px;
     line-height: normal;
