@@ -813,23 +813,20 @@
     display: flex;
     width: 140px;
     background-color: #b59f5b;
+    text-decoration: none;
+    color: #ffffff;
   }
-  
-  .shop__link__text {
-    margin: auto;
-}
 
   .shop__link__text {
-    text-decoration: none;
+    margin: auto;
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: normal;
     font-weight: bold;
-    color: #ffffff;
     text-transform: uppercase;
   }
 
-  .shop__link__button:hover {
+  .shop__link__button:hover .shop__link__text {
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 16px;
     line-height: normal;
