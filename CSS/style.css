@@ -1445,7 +1445,7 @@
     }
   }
 
-  @media (max-width: 640px) and (orientation: portrait) {
+  @media (max-width: 640px) {
     .header {
       background-image: url(../images/banner-mobile.jpg);
     }
@@ -1838,12 +1838,6 @@
     }
   }
 
-  @media (min-width: 641px) and (max-width: 1199px), (orientation: landscape) and (max-width: 640px) {
-    .trend__article {
-      width: calc(50% - 2px);
-      display: flex;
-      flex-wrap: wrap;
-    }
-  }
+  
 
   
