@@ -12,7 +12,16 @@
 <body>
     <header class="header">
         <div class="heading">
-            <a href="/"><img class="logo" src="svg/noemi-logo.svg" alt="Логотип"></a>
+            <a href="/" class="logo__container">
+                <img class="logo" src="svg/noemi-logo.svg" alt="Логотип">
+            </a>
+            <div class="logo__burger">
+                <a href="#0" class="link__burger">
+                    <span class="burger"></span>
+                    <span class="burger"></span>
+                    <span class="burger"></span>
+                </a>
+            </div>
             <nav class="menu">
                 <ul class="menu-list">
                     <li class="yourstyles"><a class="link" href="#0">главная</a></li>
@@ -31,7 +40,7 @@
     </header>
 
     <section class="trends">
-        <!--Адаптивная и мобильная вёрстка. Начало.-->
+        <!--Адаптивная и мобильная вёрстка. Начала. Trend-->
         <h2 class="trends__title">сейчас в тренде</h2>
         <div class="trend__wrapper">
             <article class="trend__article">
@@ -219,7 +228,7 @@
 
                 <article class="content-a">
                     <div class="img-a">
-                        <img class="contnent__img-a" src="images/2.jpg" alt="На фестивале">
+                        <img class="content__img-a" src="images/2.jpg" alt="На фестивале">
                     </div>
                     <div class="text-a">
                         <p class="date-a">14 июня 2019</p>
@@ -280,8 +289,8 @@
             <section class="form__wrapper">
                 <form class="form-row">
                     <label class="form-group">
-                        <input type="text" class="field" placeholder="Найти..." required>
                         <span class="form-hint">поле для ввода поискового запроса</span>
+                        <input type="text" class="field-b" placeholder="Найти..." required>
                     </label>
                     <button type="submit" class="button"><span class="button-text">отправить</span></button>
                 </form>
@@ -335,8 +344,8 @@
             <article class="shop__article">
                 <div class="shop__img">
                     <picture>
-                        <source srcset="images/shop-item-desk1.jpg">
-                        <source srcset="images/shop-item-tablet1.jpg" media="(max-width: 1199px)">
+                        <source srcset="images/shop-item-tablet1.jpg"
+                            media="(min-width: 641px) and (max-width: 1199px)">
                         <source srcset="images/shop-item-mobile1.jpg" media="(max-width: 640px)">
                         <img class="shop__img__1" src="images/shop-item-desk1.jpg" alt="Подушки на диван">
                     </picture>
@@ -344,7 +353,7 @@
                 <div class="shop__content">
                     <h3 class="shop__title">подушки на диван</h3>
                     <p class="shop__text">Набор из двух подушек с модными принтами. Видео о создании <a href="#0"
-                            class="shop__link">здесь</a></p>
+                            class="shop__links">здесь</a></p>
                     <div class="shop__price__button">
                         <div class="shop__price">
                             <div class="shop__price__1">1000 ₽</div>
@@ -357,8 +366,8 @@
             <article class="shop__article">
                 <div class="shop__img">
                     <picture>
-                        <source srcset="images/shop-item-desk2.jpg">
-                        <source srcset="images/shop-item-tablet2.jpg" media="(max-width: 1199px)">
+                        <source srcset="images/shop-item-tablet2.jpg"
+                            media="(min-width: 641px) and (max-width: 1199px)">
                         <source srcset="images/shop-item-mobile2.jpg" media="(max-width: 640px)">
                         <img class="shop__img__1" src="images/shop-item-desk1.jpg" alt="Подушки на диван">
                     </picture>
@@ -379,8 +388,8 @@
             <article class="shop__article">
                 <div class="shop__img">
                     <picture>
-                        <source srcset="images/shop-item-desk3.jpg">
-                        <source srcset="images/shop-item-tablet3.jpg" media="(max-width: 1199px)">
+                        <source srcset="images/shop-item-tablet3.jpg"
+                            media="(min-width: 641px) and (max-width: 1199px)">
                         <source srcset="images/shop-item-mobile3.jpg" media="(max-width: 640px)">
                         <img class="shop__img__1" src="images/shop-item-desk1.jpg" alt="Подушки на диван">
                     </picture>
@@ -473,7 +482,8 @@
                                 <label class="textarea__group">
                                     <span class="textarea__hint">Расскажите, какой контент вы хотели бы видеть на нашем
                                         сайте?</span>
-                                    <textarea class="textarea__field field" placeholder="Может, больше рецептов?"></textarea>
+                                    <textarea class="textarea__field field"
+                                        placeholder="Может, больше рецептов?"></textarea>
                                 </label>
                             </div>
                             <button class="button__send" type="button">отправить</button>
