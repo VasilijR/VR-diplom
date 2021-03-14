@@ -1,11 +1,13 @@
-@font-face {
-    font-family: "Open Sans";
+@media (min-width: 150px) {
+
+@font-face {  
+  font-family: "Open Sans";
     src: url("../fonts/OpenSans-Regular.woff");
     src: url("../font/OpenSans-Regular.woff2");
     src: url("../font/OpenSans-Regular.ttf");
     font-weight: 400;
     font-style: normal;
-  }
+}
   
   @font-face {
     font-family: "Open Sans";
@@ -1183,6 +1185,7 @@
       outline: 1px solid #b59f5b;
       outline-offset: 2px;
     }
+}
 
   @media (min-width: 1200px) {
     .burger {
